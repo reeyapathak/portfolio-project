@@ -1,110 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riya Portfolio</title>
+    <title>Personal Portfolio</title>
+
     <link rel="stylesheet" href="mystyle.css">
 </head>
+
 <body>
     <header>
-        <div class="logo">
-            <span class="accent">Riya</span>
-        </div>
         <nav>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
-            <li>FAQ</li>
+            <div class="logo">
+                Riya's Portfolio
+            </div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
- <main>
 
-  <section id="hero" class="hero-section">
-    <div class="hero-blob hero-blob-right"></div>
-    <div class="hero-blob hero-blob-left"></div>
-    <div class="container">
-      <div class="hero-grid">
-        <div class="hero-content">
-          <p class="hero-label reveal in accent" style="font-weight: bold;">
-            Available for work
-          </p>
-          <h1 class="hero-title reveal d1 in">
-            Hi, I'm <span class="accent">Riya</span>
-          </h1>
 
-          <p class="hero-description reveal d2 in">
-            Freelance
-            <strong>Frontend Developer</strong>.
-            I design and build digital products that people love to use -
-            fast, clean, and accessible.
-          </p>
+    <section id="hero">
+        <div class="overlay">
+            <h4>Hello</h4>
+            <h1>
+                I am Riya Pathak
+            </h1>
+            <p>
+                Frontend Developer | UI Designer | Student
+            </p>
+            <button>View My Work</button>
+        </div>
+    </section>
 
-          <div class="hero-actions reveal d3 in">
 
-            <a href="#work" class="btn btn-primary shimmer">
-              View my work
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  d="M19 9l-7 7-7-7"
-                  stroke-linecap="round"
-                  stroke-linejoin="round">
-                </path>
-              </svg>
-            </a>
+    <section id="about">
+        <div class="about-left">
+            <img src="images/profile.jpg">
+        </div>
 
-            <a href="#contact" class="btn btn-secondary">
-              Get in touch
-            </a>
+        <div class="about-right">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate web developer interested
+                in creating responsive and attractive websites.
+            </p>
 
-          </div>
+            <div class="info">
+                <p><strong>Name:</strong> Riya Pathak</p>
+                <p><strong>Email:</strong> reeyapathak@gmail.com</p>
+                <p><strong>Phone:</strong> +977-9819198902</p>
+                <p><strong>Location:</strong> Kathmandu</p>
+            </div>
+        </div>
+    </section>
 
-          <!-- <div class="hero-stats reveal d4 in">
 
-            <div class="stat">
-              <p class="stat-number">3+</p>
-              <p class="stat-label">Projects done</p>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill-container">
+
+            <div class="skill-card">
+                HTML
             </div>
 
-            <div class="stat">
-              <p class="stat-number">5+</p>
-              <p class="stat-label">Happy clients</p>
+            <div class="skill-card">
+                CSS
             </div>
 
-            <div class="stat">
-              <p class="stat-number">0y</p>
-              <p class="stat-label">Experience</p>
+            <div class="skill-card">
+                SQL
             </div>
 
-          </div> -->
+            <div class="skill-card">
+                DBMS
+            </div>
+
+            <div class="skill-card">
+                Networking
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="resume">
+        <h2>Education & Experience</h2>
+        <div class="resume-container">
+            <div class="education">
+                <h3>Education</h3>
+                <div class="box">
+                    <h4>BSc CSIT</h4>
+                    <p>2023 - Present</p>
+                </div>
+
+                <div class="box">
+                    <h4>+2 Science</h4>
+                    <p>2021 - 2023</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+        <h2>Recent Works</h2>
+        <div class="gallery">
+            <div class="project">
+                <img src="images/p1.jpg">
+            </div>
+
+            <div class="project">
+                <img src="images/p2.jpg">
+            </div>
+
+            <div class="project">
+                <img src="images/p3.jpg">
+            </div>
+
+            <div class="project">
+                <img src="images/p4.jpg">
+            </div>
+
+            <div class="project">
+                <img src="images/p5.jpg">
+            </div>
+
+            <div class="project">
+                <img src="images/p6.jpg">
+            </div>
 
         </div>
 
-        <div class="hero-image-wrapper reveal d2 in">
+    </section>
 
-          <div class="hero-image-card">
 
-            <div class="pf">
-              <img
-                src="profile.jpg"
-                alt="Riya">
-            </div>
+    <section id="frame">
+        <h2>My Resume Preview</h2>
+        <iframe src="resume.html"></iframe>
+    </section>
 
-            <div class="status-badge">
-              Open to projects
-            </div>
 
-          </div>
+    <section id="contact">
+        <h2>Contact Me</h2>
 
-        </div>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Message"></textarea>
+            <button>Send</button>
+        </form>
+    </section>
 
-      </div>
 
-    </div>
+    <footer>
+        <h3>Portfolio</h3>
+        <p>© 2026 All Rights Reserved</p>
+    </footer>
 
-  </section>
-
-</main>
 </body>
 </html>
