@@ -61,7 +61,7 @@ nav{
 .logo{
     font-size:28px;
     font-weight:bold;
-    color: #8b5cf6  ;
+    color: #8b5cf6;
 }
 
 nav ul{
@@ -74,7 +74,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:#ffb400;
+    color:#8b5cf6;
 }
 
 
@@ -146,10 +146,12 @@ nav ul li a:hover{
 
 .about-left{
     flex:1;
+    align-items:center;
 }
 
 .about-left img{
-    border-radius:10px;
+    border-radius:50%;
+    /* overflow:hidden; */
 }
 
 .about-right{
@@ -352,10 +354,9 @@ footer{
 }
 
 footer h3{
-    color:#ffb400;
+    color:aqua;
     margin-bottom:10px;
 }
-
 
 
 @keyframes fadeUp{
