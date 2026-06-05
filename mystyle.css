@@ -150,8 +150,8 @@ nav ul li a:hover{
 }
 
 .about-left img{
-    border-radius:45%;
-    /* overflow:hidden; */
+    border-radius:50%;
+    overflow:hidden; 
 }
 
 .about-right{
